@@ -1,8 +1,19 @@
-aidewatcher - Runs AIDE filesystem integrity checker and reports violations via speech. Run with cron.
-loginwatcher - Reports failed logins by speech and shut down system after 3 failed logins. Runs as daemon.
-snortwatcher - Report attacks found by snort via speech. Runs as daemon.
+////[ aidewatcher
 
-Requirements:
+Runs AIDE filesystem integrity checker and reports violations via speech. Run with cron.
+
+
+////[ loginwatcher
+
+Reports failed logins by speech and shut down system after 3 failed logins. Runs as daemon.
+
+
+////[ snortwatcher
+
+Report attacks found by snort via speech. Runs as daemon.
+
+
+////[ Requirements:
 
 - festival
 - aide
