@@ -3,6 +3,12 @@
 Runs AIDE filesystem integrity checker and reports violations via speech. Run with cron.
 
 
+////[ blue-cmd
+
+Checks if a bluetooth device is in range and executes a specified command if it's gone.
+It can for example be used to lock or shutdown your computer if you leave place carring your bluetooth enabled mobile phone with you.
+
+
 ////[ loginwatcher
 
 Reports failed logins by speech and shut down system after 3 failed logins. Runs as daemon.
